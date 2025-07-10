@@ -1,0 +1,344 @@
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mybgcolor {background-color:#eaecc6; } 
+.myforecolor {color:#eaecc6; }
+.mybordercolor {border:3px solid #eaecc6; }
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+body {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  background-color:white;
+  text-decoration: none;
+}
+/* ...existing code... */
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ...existing code... */
+
+body {
+  /* ...existing code... */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+/* ...existing code... */
+
+.topnav {
+  /* ...existing code... */
+  margin-top: 0 !important;   /* Ensure no margin above */
+  margin-bottom: 0;
+  padding-top: 0;             /* Remove any top padding */
+  position: relative;         /* Change to 'fixed' if you want it always visible */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* ...existing code... */
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the nav horizontally */
+  padding: 0.5rem 2rem;
+  background: #fff;
+  color: #222;
+  border-bottom: 2px solid #222;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 26px;
+  min-height: 60px;
+  gap: 2rem;
+  background-color: silver; /* Change background color to silver */
+   margin-bottom: 0;
+   margin-top: 0 ;
+  top: 0%;
+  position: fixed;
+}
+.logo {
+  margin-right: 2rem; /* Space after logo */
+  text-decoration: none;
+  color: #222;
+  font-size: 50px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 2rem;
+}
+
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #0074d9;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 2rem;
+}
+
+.icon-group .icon {
+  font-size: 1.3rem;
+  color: #222;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.icon-group .icon:hover {
+  color: #0074d9;
+}
+
+/* ...existing code... */
+
+.slideshows-row {
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-start; /* or center if you want vertical centering */
+  gap: 40px; /* space between slideshows */
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1600px; /* adjust as needed */
+}
+
+.website-content,
+.App-content,
+.GraphicDesign-content {
+  display: block;
+  margin: 0; /* Remove auto margins for flex children */
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */  
+}
+
+.website-content, .GraphicDesign-content, .App-content {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+  padding: 20px; /* Add padding for better spacing */ 
+
+} 
+
+
+
+
+.website-content img{
+  
+  width: 70vw;
+  height:40vh;      /* Set a fixed height for landscape */
+  object-fit: cover;  /* Ensures the image covers the area and stays landscape */
+  aspect-ratio: 16/9; /* Forces landscape aspect ratio */
+  display: block  
+  ;
+
+}
+
+
+.App-content img {
+  width: 70vw;
+  height: 40vh; /* Set a fixed height for landscape */
+  object-fit: cover; /* Ensures the image covers the area and stays landscape */
+  aspect-ratio: 16/9; /* Forces landscape aspect ratio */
+  display: block;
+}
+
+.GraphicDesign-content img {
+  width: 70vw;
+  height: 40vh; /* Set a fixed height for landscape */
+  object-fit: cover; /* Ensures the image covers the area and stays landscape */
+  aspect-ratio: 16/9; /* Forces landscape aspect ratio */
+  display: block;
+}
+
+
+.opening-text {
+  text-align: center;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  font-size: 1.1rem;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+    margin-top: 40px;
+}
+
+
+.services-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px auto 10px auto;
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  position: relative;
+}
+
+/* ...existing code... */
+
+.hero-section {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: 20vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-section .opening-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+
+/* Add to index.css */
+/* ...existing code... */
+/* ...existing code... */
+/* ...existing code... */
+.appdev-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at 80% 60%, #ffe6e6 0%, #f8f8fa 100%);
+  padding: 4rem 2rem;
+  margin: 0 auto 0 auto;      /* Remove top margin */
+  border-radius: 0;
+  gap: 2rem;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  width: 100vw;
+}
+/* ...existing code... */
+
+/* Remove any margin-bottom from .topnav if present */
+
+/* ...existing code... */
+/* ...existing code... */
+/* ...existing code... */
+.appdev-hero-content {
+  max-width: 600px;
+  flex: 1 1 320px;
+}
+
+.appdev-hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  line-height: 1.1;
+}
+
+.appdev-hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #b32b2b;
+  color: #fff;
+  padding: 1rem 2.2rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #8d2222;
+}
+
+.appdev-hero-stats {
+  flex: 1 1 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-card {
+  background: #fff;
+  border: 2px solid #eee;
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  min-width: 260px;
+  text-align: left;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.stats-label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2.2rem;
+}
+
+.stats-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.brand-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #222;
+  letter-spacing: 0.02em;
+}
+
+.stats-arrow {
+  display: inline-block;
+  font-size: 2rem;
+  color: #b32b2b;
+}
