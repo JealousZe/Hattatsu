@@ -70,7 +70,7 @@ body {
   font-size: 26px;
   min-height: 60px;
   gap: 2rem;
-  background-color: silver; /* Change background color to silver */
+  background-color:snow; /* Change background color to silver */
    margin-bottom: 0;
    margin-top: 0 ;
   top: 0%;
@@ -147,6 +147,7 @@ body {
   margin: 0; /* Remove auto margins for flex children */
   max-width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */  
+  
 }
 
 .website-content, .GraphicDesign-content, .App-content {
@@ -273,10 +274,19 @@ body {
   line-height: 1.1;
 }
 
-.appdev-hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #444;
+appdev-hero {
+  display: flex;
+  justify-content: center;      /* Center both columns */
+  align-items: center;
+  background: radial-gradient(circle at 80% 60%, #ffe6e6 0%, #f8f8fa 100%);
+  padding: 4rem 2rem;
+  margin: 0 auto 0 auto;
+  border-radius: 0;
+  gap: 2rem;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  width: 100vw;
 }
 
 .cta-btn {
@@ -341,4 +351,99 @@ body {
   display: inline-block;
   font-size: 2rem;
   color: #b32b2b;
+}
+
+.appdev-hero-stats {
+  flex: 1 1 320px;
+  display: flex;
+   /* Move card to the far right */
+  align-items: center;
+  position: relative; /* Add relative positioning */
+}
+  
+
+.appdev-hero-content {
+  max-width: 600px;
+  flex: 1 1 320px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;              /* Add */
+  flex-direction: column;     /* Add */
+  align-items: left;        /* Add */
+  justify-content: center;    /* Add */
+  height: 100%;               /* Add */
+  position: relative;        /* Add */
+  left: 20%;              /* Add */
+}
+
+/* ...existing code... */
+
+/* Sub-section nav style to match the screenshot */
+.subnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw; /* space between links, adjust as needed */
+  background: #f8f8fa;
+  padding: 0.7rem 0;
+  width: 100vw;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  position: sticky;
+}
+
+.subnav a {
+  color: #555;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+.subnav a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+/* ...existing code... */
+
+/* ...existing code... */
+
+
+.core-technologies-section {
+  margin: 40px auto 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.core-technologies-section h2,
+.core-technologies-section h3 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.core-technologies-list {
+  display: inline-block;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.Technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* space between items */
+ 
+}
+/* ...existing code... */
+
+.technologies-heading {
+  text-align: center;
+  font-size: 3rem;
+text-decoration: none;
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
 }

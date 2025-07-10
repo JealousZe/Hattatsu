@@ -16,3 +16,17 @@ function showSlides() {
   setTimeout(showSlides, 4000);
 }
 showSlides();
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.tech-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const content = btn.nextElementSibling;
+      btn.classList.toggle('active');
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    });
+  });
+});
