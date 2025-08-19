@@ -1,5 +1,5 @@
 var slideIndices = [0, 0, 0];
-var slideClasses = ["mySlides1", "mySlides2", "mySlides3"];
+var slideClasses = ["mySlides1", "mySlides2", "mySlides3" , "mySlides4"];
 
 function showSlides() {
   for (let s = 0; s < slideClasses.length; s++) {

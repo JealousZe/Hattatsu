@@ -220,7 +220,7 @@ body {
   gap: 2rem;
   max-width: 1200px;
   margin: 40px auto 0 auto;
-  font-size: 25px; 
+  font-size: 20px; 
 }
 
 .hero-subtitle{
@@ -463,3 +463,30 @@ text-decoration: none;
   display: none;
 }
 /* ...existing code... */
+/* Add to your CSS file */
+
+
+
+.VideoEditing-content {
+  display: block;
+  margin: 0;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  /* Add these for flex alignment */
+  flex: 1 1 0;
+  min-width: 320px;
+}
+
+.VideoEditing-content img {
+  width: 70vw;
+  height: 40vh;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  display: block;
+}
+
